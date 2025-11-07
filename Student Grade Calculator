@@ -1,0 +1,27 @@
+# Student Grade Calculator
+
+# Ask for the student's name
+student_name = input("Enter the student's name: ")
+
+# Ask for three subject scores
+math_score = input("Enter Math score: ")
+science_score = input("Enter Science score: ")
+english_score = input("Enter English score: ")
+
+# Convert (cast) the input strings to integers
+math_score = int(math_score)
+science_score = int(science_score)
+english_score = int(english_score)
+
+# Calculate the total and average using operators
+total_score = math_score + science_score + english_score
+average_score = total_score / 3
+
+# Display results
+print("\nStudent Name:", student_name)
+print("Total Score:", total_score)
+print("Average Score:", average_score)
+
+# Display data types
+print("\nType of student_name:", type(student_name))
+print("Type of average_score:", type(average_score))
