@@ -1,0 +1,14 @@
+# Define some variables
+name = "Liam"
+age = 32
+height = 1.82
+
+# Print the variable values
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+
+# Print the data types of each variable
+print("Type of name:", type(name))
+print("Type of age:", type(age))
+print("Type of height:", type(height))
