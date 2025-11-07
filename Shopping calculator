@@ -1,0 +1,27 @@
+# Simple Shopping Calculator
+
+# Item names
+item1 = "Apples"
+item2 = "Bananas"
+
+# Prices (you could use input(), but we'll use random numbers for now)
+price1 = 3.50   # price of apples per kilogram
+price2 = 2.20   # price of bananas per kilogram
+
+# Quantities bought (in kilograms)
+quantity1 = 2
+quantity2 = 1.5
+
+# Calculate total costs for each item
+total1 = price1 * quantity1
+total2 = price2 * quantity2
+
+# Calculate overall total
+grand_total = total1 + total2
+
+# Print the results
+print("Item 1:", item1)
+print("Item 2:", item2)
+print("Total cost for", item1, "=", total1)
+print("Total cost for", item2, "=", total2)
+print("Grand Total =", grand_total)
